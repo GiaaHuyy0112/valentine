@@ -1,0 +1,29 @@
+{
+  "name": "valentine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx mix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiaaHuyy0112/valentine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiaaHuyy0112/valentine/issues"
+  },
+  "homepage": "https://github.com/GiaaHuyy0112/valentine#readme",
+  "dependencies": {
+    "laravel-mix": "^6.0.49"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.0",
+    "sass-loader": "^12.6.0"
+  }
+}
