@@ -40,7 +40,7 @@ body {
   margin-left: -95px;
   margin-top: -73px;
   z-index: 4;
-  font-size: 50px;
+  font-size: 30px;
   font-family: "Pacifico", cursive;
   color: #fff;
   cursor: pointer;
@@ -176,5 +176,70 @@ body {
   to {
     opacity: 1;
     top: 0;
+  }
+}
+.button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0 0 -50px;
+  left: 50%;
+  bottom: -20%;
+  border-radius: 100%;
+  background: #fff;
+  transition: all 1s ease-in-out;
+}
+.button .icon {
+  color: #e91e63;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 20px;
+  font-size: 30px;
+}
+.button .text {
+  opacity: 0;
+  display: block;
+  transition: all 0.5s ease-in-out;
+  font-size: 25px;
+  text-align: center;
+  color: #e91e63;
+  margin-top: 20px;
+}
+
+.openbtn {
+  border-radius: 0%;
+  height: 200px;
+  width: 300px;
+  transition: all 1s ease-in-out;
+  border-radius: 15px;
+  bottom: 25%;
+  left: 35%;
+}
+.openbtn .text {
+  opacity: 1;
+  transition: all 2s ease-in-out;
+}
+.openbtn .icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .endtext {
+    width: 30vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .endtext {
+    width: 60vw;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .endtext {
+    width: 95vw;
+  }
+  .openbtn {
+    left: 25%;
   }
 }

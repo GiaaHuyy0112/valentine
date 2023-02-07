@@ -11,4 +11,8 @@ $(document).ready(function () {
     $('.close').click(function () {
         $('.container').removeClass('open');
     });
+
+    $(".button").click(function () {
+        $(this).toggleClass("openbtn");
+    });
 });
